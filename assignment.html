@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY WORK</title>
+<style>
+    body{
+        background-color:yellow;
+    }
+    .work{
+        background-color: red;
+        height: 200%;
+        width: 900px
+    }
+    .form{
+        margin-left: 200px;
+        margin-bottom: 50px;
+        
+    }
+    h1{
+        color:red;
+        margin-left: 200px;
+        margin-bottom: 200px;
+        font-size: 50px;
+    }
+    .app{
+        padding-top: 100px;
+        text-align: center;
+        margin-top: 200px;
+        color: yellow;
+        font-size: 30px;
+    
+    }
+    input{
+border: 2px solid black;
+width: 50%;
+height: 30px;
+    }
+    label{
+
+        color:aqua;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+    
+    }
+    #female ,#male
+    {
+        width: 20px;
+        height: 18px;
+    }
+    label .po,.op{
+        margin-bottom: 10px;
+    }
+    button{
+        width: 50%;
+        height: 30px;
+        background-color: green;
+        color: white;
+
+    }
+    
+</style>
+</head>
+<body>
+    <h1>FRIDAOS,BEAUTIFUL FORM<h1>
+    <div class="work">
+        <h2 class="app">APPLICATION FORM</h2>
+        <div class="form">
+            <form action="action_page.php" method="post">
+                <label>FIRST NAME</label><br>
+                <input type="text" id="name" name="name" placeholder="FIDAOS"><br><br>
+                <label>LAST NAME</label><br>
+                <input type="text" id="lname" name="lname" placeholder="JAMIU"><br><br>
+                <label>GENDER</label><br>
+                <input type="radio" id="female" name="female">
+                <label class="po">F</label><br>
+                <input type="radio" id="male" name="male">
+                <label class="op">M</label><br><br>
+                <label>MARITAL STATUS</label><br>
+                <input type="text" id="status" name="status" placeholder="MARRIED/UNMARRIED"><br><br>
+                <label>STATE OF ORIGIN</label><br>
+                <input type="text" id="origin" name="origin" placeholder="OGUN STATE"  required="marital-status"><br><br>
+                <label>USER NAME</label><br>
+                <input type="text" id="UNAME" name="UNAME" placeholder="username"><br><br>
+                <label>PASSWORD</label><br>
+                <input type="password" placeholder="password" required="password"><br><br>
+                <button> submit</button>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
